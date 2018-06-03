@@ -351,6 +351,9 @@
                         <File>
                             <Name>Aurora_Speech_Quick_Commands_Good_Game_2.wem</Name>
                         </File>
+                        <File>
+                            <Name>Aurora_Speech_Quick_Commands_Good_Game_1.wem</Name>
+                        </File>
                     </FilesList>
                 </Path>
                 <Path>
@@ -427,6 +430,9 @@
                     <FilesList>
                         <File>
                             <Name>Aurora_Speech_Quick_Commands_Thank_You_2.wem</Name>
+                        </File>
+                        <File>
+                            <Name>Aurora_Speech_Quick_Commands_Thank_You_1.wem</Name>
                         </File>
                     </FilesList>
                 </Path>
@@ -699,6 +705,7 @@
             <Container>
                 <Name>Voice</Name>
                 <ExternalId>VFrags</ExternalId>
+		<!--Extracted from 0.7.5 ST client by SEA group-->
                 <Path>
                     <StateList>
                         <State>
@@ -1383,6 +1390,7 @@
                         </File>
                     </FilesList>
                 </Path>
+		<!--Extracted from 0.7.5 ST client by SEA group-->
                 <Path>
                     <StateList>
                         <State>

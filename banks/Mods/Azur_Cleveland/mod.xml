@@ -351,6 +351,9 @@
                         <File>
                             <Name>Cleveland_Speech_Quick_Commands_Good_Game_2.wem</Name>
                         </File>
+                        <File>
+                            <Name>Cleveland_Speech_Quick_Commands_Good_Game_1.wem</Name>
+                        </File>
                     </FilesList>
                 </Path>
                 <Path>
@@ -385,6 +388,7 @@
                         </File>
                     </FilesList>
                 </Path>
+		<!--Extracted from 0.7.5 ST client by SEA group-->
                 <Path>
                     <StateList>
                         <State>
@@ -427,6 +431,9 @@
                     <FilesList>
                         <File>
                             <Name>Cleveland_Speech_Quick_Commands_Thank_You_2.wem</Name>
+                        </File>
+                        <File>
+                            <Name>Cleveland_Speech_Quick_Commands_Thank_You_1.wem</Name>
                         </File>
                     </FilesList>
                 </Path>
@@ -1206,6 +1213,7 @@
                             <Value>CMD_QUICK_TACTIC_ALLY_BASE</Value>
                         </State>
                     </StateList>
+		<!--Extracted from 0.7.5 ST client by SEA group-->
                     <FilesList>
                         <File>
                             <Name>Cleveland_Speech_Quick_Commands_Ally_Base_2.wem</Name>
@@ -1723,6 +1731,7 @@
                             <Value>Engine</Value>
                         </State>
                     </StateList>
+		<!--Extracted from 0.7.5 ST client by SEA group-->
                     <FilesList>
                         <File>
                             <Name>Cleveland_Speech_Consumable_Forsage_Normal.wem</Name>

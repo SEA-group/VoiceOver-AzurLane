@@ -183,6 +183,7 @@
                 <ExternalId>VPriorityTarget</ExternalId>
                 <Path>
                     <StateList/>
+		<!--Extracted from 0.7.5 ST client by SEA group-->
                     <FilesList>
                         <File>
                             <Name>Hipper_Speech_Priority_Target_2.wem</Name>
@@ -351,6 +352,9 @@
                         <File>
                             <Name>Hipper_Speech_Quick_Commands_Good_Game_2.wem</Name>
                         </File>
+                        <File>
+                            <Name>Hipper_Speech_Quick_Commands_Good_Game_1.wem</Name>
+                        </File>
                     </FilesList>
                 </Path>
                 <Path>
@@ -428,6 +432,9 @@
                         <File>
                             <Name>Hipper_Speech_Quick_Commands_Thank_You_2.wem</Name>
                         </File>
+                        <File>
+                            <Name>Hipper_Speech_Quick_Commands_Thank_You_1.wem</Name>
+                        </File>
                     </FilesList>
                 </Path>
                 <Path>
@@ -504,6 +511,7 @@
                         </File>
                     </FilesList>
                 </Path>
+		<!--Extracted from 0.7.5 ST client by SEA group-->
                 <Path>
                     <StateList>
                         <State>
@@ -716,6 +724,7 @@
                         </File>
                     </FilesList>
                 </Path>
+		<!--Extracted from 0.7.5 ST client by SEA group-->
                 <Path>
                     <StateList>
                         <State>
@@ -1657,6 +1666,7 @@
                         </File>
                     </FilesList>
                 </Path>
+		<!--Extracted from 0.7.5 ST client by SEA group-->
                 <Path>
                     <StateList>
                         <State>
@@ -1935,6 +1945,7 @@
                 <ExternalId>VTask_4</ExternalId>
                 <Path>
                     <StateList/>
+		<!--Extracted from 0.7.5 ST client by SEA group-->
                     <FilesList>
                         <File>
                             <Name>TISHINA.wem</Name>
@@ -1993,6 +2004,7 @@
             <Container>
                 <Name>Voice</Name>
                 <ExternalId>VTask_9</ExternalId>
+		<!--Extracted from 0.7.5 ST client by SEA group-->
                 <Path>
                     <StateList/>
                     <FilesList>
@@ -2073,6 +2085,7 @@
                             <Value>Battleship</Value>
                         </State>
                     </StateList>
+		<!--Extracted from 0.7.5 ST client by SEA group-->
                     <FilesList>
                         <File>
                             <Name>Hipper_Speech_Detection_Enemy_Battleship_1.wem</Name>

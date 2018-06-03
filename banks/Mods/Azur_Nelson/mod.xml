@@ -99,6 +99,7 @@
                         </File>
                     </FilesList>
                 </Path>
+		<!--Extracted from 0.7.5 ST client by SEA group-->
                 <Path>
                     <StateList>
                         <State>
@@ -351,6 +352,9 @@
                         <File>
                             <Name>Nelson_Speech_Quick_Commands_Good_Game_2.wem</Name>
                         </File>
+                        <File>
+                            <Name>Nelson_Speech_Quick_Commands_Good_Game_1.wem</Name>
+                        </File>
                     </FilesList>
                 </Path>
                 <Path>
@@ -428,6 +432,9 @@
                         <File>
                             <Name>Nelson_Speech_Quick_Commands_Thank_You_2.wem</Name>
                         </File>
+                        <File>
+                            <Name>Nelson_Speech_Quick_Commands_Thank_You_1.wem</Name>
+                        </File>
                     </FilesList>
                 </Path>
                 <Path>
@@ -446,6 +453,7 @@
                         </File>
                     </FilesList>
                 </Path>
+		<!--Extracted from 0.7.5 ST client by SEA group-->
                 <Path>
                     <StateList>
                         <State>
@@ -1551,6 +1559,7 @@
                 <ExternalId>VTAshot</ExternalId>
                 <Path>
                     <StateList/>
+		<!--Extracted from 0.7.5 ST client by SEA group-->
                     <FilesList>
                         <File>
                             <Name>Nelson_Speech_Fire_Torpedo_2.wem</Name>

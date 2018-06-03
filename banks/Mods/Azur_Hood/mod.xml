@@ -351,6 +351,9 @@
                         <File>
                             <Name>Hood_Speech_Quick_Commands_Good_Game_2.wem</Name>
                         </File>
+                        <File>
+                            <Name>Hood_Speech_Quick_Commands_Good_Game_1.wem</Name>
+                        </File>
                     </FilesList>
                 </Path>
                 <Path>
@@ -427,6 +430,9 @@
                     <FilesList>
                         <File>
                             <Name>Hood_Speech_Quick_Commands_Thank_You_2.wem</Name>
+                        </File>
+                        <File>
+                            <Name>Hood_Speech_Quick_Commands_Thank_You_1.wem</Name>
                         </File>
                     </FilesList>
                 </Path>
@@ -614,6 +620,7 @@
                         </File>
                     </FilesList>
                 </Path>
+		<!--Extracted from 0.7.5 ST client by SEA group-->
                 <Path>
                     <StateList>
                         <State>
@@ -1077,6 +1084,7 @@
             <Container>
                 <Name>Voice</Name>
                 <ExternalId>Vquick_commands_receive</ExternalId>
+		<!--Extracted from 0.7.5 ST client by SEA group-->
                 <Path>
                     <StateList>
                         <State>
@@ -1422,6 +1430,7 @@
                         </File>
                     </FilesList>
                 </Path>
+		<!--Extracted from 0.7.5 ST client by SEA group-->
                 <Path>
                     <StateList>
                         <State>
@@ -1598,6 +1607,7 @@
                         </File>
                     </FilesList>
                 </Path>
+		<!--Extracted from 0.7.5 ST client by SEA group-->
                 <Path>
                     <StateList>
                         <State>
