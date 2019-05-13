@@ -2,10 +2,7 @@
 
 ======================Presented by SEA group======================
 
-
-
 Installation: 
-
 Copy "banks" into /res_mods/a.b.c.d(current version)/
 
 

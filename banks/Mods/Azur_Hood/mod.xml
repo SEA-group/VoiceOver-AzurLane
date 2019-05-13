@@ -351,9 +351,6 @@
                         <File>
                             <Name>Hood_Speech_Quick_Commands_Good_Game_2.wem</Name>
                         </File>
-                        <File>
-                            <Name>Hood_Speech_Quick_Commands_Good_Game_1.wem</Name>
-                        </File>
                     </FilesList>
                 </Path>
                 <Path>
@@ -430,9 +427,6 @@
                     <FilesList>
                         <File>
                             <Name>Hood_Speech_Quick_Commands_Thank_You_2.wem</Name>
-                        </File>
-                        <File>
-                            <Name>Hood_Speech_Quick_Commands_Thank_You_1.wem</Name>
                         </File>
                     </FilesList>
                 </Path>
@@ -559,6 +553,7 @@
                             <Value>CMD_QUICK_NEED_AIR_DEFENCE</Value>
                         </State>
                     </StateList>
+		<!--Extracted from 0.8.4 client by SEA group-->
                     <FilesList>
                         <File>
                             <Name>Hood_Speech_Quick_Commands_Need_AA_1.wem</Name>
@@ -620,7 +615,6 @@
                         </File>
                     </FilesList>
                 </Path>
-		<!--Extracted from 0.7.5 ST client by SEA group-->
                 <Path>
                     <StateList>
                         <State>
@@ -858,7 +852,7 @@
                     </StateList>
                     <FilesList>
                         <File>
-                            <Name>Hood_Speech_Pilots_ID_1.wem</Name>
+                            <Name>TISHINA.wem</Name>
                         </File>
                     </FilesList>
                 </Path>
@@ -871,7 +865,7 @@
                     </StateList>
                     <FilesList>
                         <File>
-                            <Name>Hood_Speech_Pilots_ID_2.wem</Name>
+                            <Name>TISHINA.wem</Name>
                         </File>
                     </FilesList>
                 </Path>
@@ -884,7 +878,7 @@
                     </StateList>
                     <FilesList>
                         <File>
-                            <Name>Hood_Speech_Pilots_ID_3.wem</Name>
+                            <Name>TISHINA.wem</Name>
                         </File>
                     </FilesList>
                 </Path>
@@ -897,7 +891,7 @@
                     </StateList>
                     <FilesList>
                         <File>
-                            <Name>Hood_Speech_Pilots_ID_4.wem</Name>
+                            <Name>TISHINA.wem</Name>
                         </File>
                     </FilesList>
                 </Path>
@@ -910,7 +904,7 @@
                     </StateList>
                     <FilesList>
                         <File>
-                            <Name>Hood_Speech_Pilots_ID_5.wem</Name>
+                            <Name>TISHINA.wem</Name>
                         </File>
                     </FilesList>
                 </Path>
@@ -923,7 +917,7 @@
                     </StateList>
                     <FilesList>
                         <File>
-                            <Name>Hood_Speech_Pilots_ID_6.wem</Name>
+                            <Name>TISHINA.wem</Name>
                         </File>
                     </FilesList>
                 </Path>
@@ -936,7 +930,7 @@
                     </StateList>
                     <FilesList>
                         <File>
-                            <Name>Hood_Speech_Pilots_ID_7.wem</Name>
+                            <Name>TISHINA.wem</Name>
                         </File>
                     </FilesList>
                 </Path>
@@ -949,7 +943,7 @@
                     </StateList>
                     <FilesList>
                         <File>
-                            <Name>Hood_Speech_Pilots_ID_8.wem</Name>
+                            <Name>TISHINA.wem</Name>
                         </File>
                     </FilesList>
                 </Path>
@@ -962,7 +956,7 @@
                     </StateList>
                     <FilesList>
                         <File>
-                            <Name>Hood_Speech_Pilots_ID_9.wem</Name>
+                            <Name>TISHINA.wem</Name>
                         </File>
                     </FilesList>
                 </Path>
@@ -977,7 +971,7 @@
                     <StateList>
                         <State>
                             <Name>PlaneStatus</Name>
-                            <Value>Engage</Value>
+                            <Value>ATTACK_STARTED</Value>
                         </State>
                     </StateList>
                     <FilesList>
@@ -990,7 +984,7 @@
                     <StateList>
                         <State>
                             <Name>PlaneStatus</Name>
-                            <Value>UnderAttack</Value>
+                            <Value>UNDER_ATTACK</Value>
                         </State>
                     </StateList>
                     <FilesList>
@@ -1016,7 +1010,7 @@
                     <StateList>
                         <State>
                             <Name>PlaneStatus</Name>
-                            <Value>Airborne</Value>
+                            <Value>TAKEOFF_ENDED</Value>
                         </State>
                     </StateList>
                     <FilesList>
@@ -1042,7 +1036,7 @@
                     <StateList>
                         <State>
                             <Name>PlaneStatus</Name>
-                            <Value>Land</Value>
+                            <Value>LANDING_INITIATED</Value>
                         </State>
                     </StateList>
                     <FilesList>
@@ -1084,7 +1078,6 @@
             <Container>
                 <Name>Voice</Name>
                 <ExternalId>Vquick_commands_receive</ExternalId>
-		<!--Extracted from 0.7.5 ST client by SEA group-->
                 <Path>
                     <StateList>
                         <State>
@@ -1430,7 +1423,6 @@
                         </File>
                     </FilesList>
                 </Path>
-		<!--Extracted from 0.7.5 ST client by SEA group-->
                 <Path>
                     <StateList>
                         <State>
@@ -1590,6 +1582,36 @@
             </Container>
         </ExternalEvent>
         <ExternalEvent>
+            <Name>Play_Telegraf_Bell</Name>
+            <Container>
+                <Name>Voice</Name>
+                <ExternalId>VTelegraf_Bell</ExternalId>
+                <Path>
+                    <StateList/>
+                    <FilesList>
+                        <File>
+                            <Name>TISHINA.wem</Name>
+                        </File>
+                    </FilesList>
+                </Path>
+            </Container>
+        </ExternalEvent>
+        <ExternalEvent>
+            <Name>Play_Lock_Weapon</Name>
+            <Container>
+                <Name>Voice</Name>
+                <ExternalId>VLock_Weapon</ExternalId>
+                <Path>
+                    <StateList/>
+                    <FilesList>
+                        <File>
+                            <Name>TISHINA.wem</Name>
+                        </File>
+                    </FilesList>
+                </Path>
+            </Container>
+        </ExternalEvent>
+        <ExternalEvent>
             <Name>Play_Result</Name>
             <Container>
                 <Name>Voice</Name>
@@ -1607,7 +1629,6 @@
                         </File>
                     </FilesList>
                 </Path>
-		<!--Extracted from 0.7.5 ST client by SEA group-->
                 <Path>
                     <StateList>
                         <State>
@@ -1719,6 +1740,19 @@
                         </File>
                     </FilesList>
                 </Path>
+                <Path>
+                    <StateList>
+                        <State>
+                            <Name>HelpType</Name>
+                            <Value>CallFighters</Value>
+                        </State>
+                    </StateList>
+                    <FilesList>
+                        <File>
+                            <Name>Hood_Speech_CatFight_Launch.wem</Name>
+                        </File>
+                    </FilesList>
+                </Path>
             </Container>
         </ExternalEvent>
         <ExternalEvent>
@@ -1775,6 +1809,32 @@
                     <FilesList>
                         <File>
                             <Name>Hood_Speech_Consumable_AAC_Normal.wem</Name>
+                        </File>
+                    </FilesList>
+                </Path>
+                <Path>
+                    <StateList>
+                        <State>
+                            <Name>HelpType</Name>
+                            <Value>Scout</Value>
+                        </State>
+                    </StateList>
+                    <FilesList>
+                        <File>
+                            <Name>TISHINA.wem</Name>
+                        </File>
+                    </FilesList>
+                </Path>
+                <Path>
+                    <StateList>
+                        <State>
+                            <Name>HelpType</Name>
+                            <Value>Fighter</Value>
+                        </State>
+                    </StateList>
+                    <FilesList>
+                        <File>
+                            <Name>TISHINA.wem</Name>
                         </File>
                     </FilesList>
                 </Path>
@@ -1888,6 +1948,39 @@
                     <FilesList>
                         <File>
                             <Name>Hood_Speech_Defective_Modules_Engine_Damaged.wem</Name>
+                        </File>
+                    </FilesList>
+                </Path>
+            </Container>
+        </ExternalEvent>
+        <ExternalEvent>
+            <Name>Play_Help_Interrupted</Name>
+            <Container>
+                <Name>Voice</Name>
+                <ExternalId>VHelp_Interrupted</ExternalId>
+                <Path>
+                    <StateList>
+                        <State>
+                            <Name>HelpType</Name>
+                            <Value>Scout</Value>
+                        </State>
+                    </StateList>
+                    <FilesList>
+                        <File>
+                            <Name>Hood_Speech_Corr_Destroyed.wem</Name>
+                        </File>
+                    </FilesList>
+                </Path>
+                <Path>
+                    <StateList>
+                        <State>
+                            <Name>HelpType</Name>
+                            <Value>Fighter</Value>
+                        </State>
+                    </StateList>
+                    <FilesList>
+                        <File>
+                            <Name>Hood_Speech_CatFight_Destroyed.wem</Name>
                         </File>
                     </FilesList>
                 </Path>
